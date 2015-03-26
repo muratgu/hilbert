@@ -77,3 +77,8 @@ def d2xy(n, d):
         s *= 2
     return x, y
 
+if __name__ == "__main__":
+    p = gen(4)
+    print len(p)
+    print p
+    print [xy2d(4, x[0], x[1]) for x in p]
