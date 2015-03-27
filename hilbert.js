@@ -120,7 +120,7 @@ var Hilbert = (function() {
         test: test
     }
 })();
-/*
+
 var level = 6;
 var list = Hilbert.gen(level);
 
@@ -141,4 +141,3 @@ for(p in list){
 }
 ctx.stroke();
 fs.writeFileSync('hilbert1.png', canvas.toBuffer());
-*/
